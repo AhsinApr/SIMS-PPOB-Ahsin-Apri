@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #eee;
+}
+#profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#welcome-text {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#user-name {
+    font-size: 45px;
+    font-weight: bold;
+    color: #333;
+}
+.left-div {
+    width: 38%; 
+    padding: 10px;
+    
+}
+.right-div{
+    width: 55%;
+    height: auto; 
+    padding: 20px;
+    background-image: url('/assets/assets/BackgroundSaldo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius:6px;
+    color: #ffffff; 
+}
+
+/* //services */
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   margin: 10px;
+}
+
+.custom-menu-item {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    /* border: 2px solid #e4e1e1; */
+    border-radius: 10px;
+    /* background-color: #eee; */
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.menu-name {
+    font-size: 14px;
+}
+/* baner? */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 25%; /* 25% width for each banner */
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%; 
+  }
+  #captionbaner{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin: 15px;
+}
+  /* akun */
+
+
+/* topup */
+/* Style for the Top Up form */
+.ccontainer {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+input {
+    margin-top: 10PX;
+    width: 100%;
+    height: 55%;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label {
+    margin-top: 0%;
+}
+
+.button-group button {
+    width: calc(30% - 5px);
+    padding: 10px;
+    background-color: #fafafa;
+    color: #000000;
+    border-color: #333;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+}
+#topUpButton{
+    width: 101%;
+    height: 5px;
+    padding: 10px;
+    background-color: #fafafa;
+    color: #000000;
+    border-color: #333;
+    height: 55%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+    
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+
+
+#topUpButton:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+/* transaction */
+
+.transaction-history {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px;
+}
+
+.history-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.transaction-item {
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction-details {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.transaction-amount {
+    font-size: 30px;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: rgb(79, 193, 79); /* Warna hijau */
+}
+
+.transaction-date {
+    color: #888;
+}
+
+.transaction-status {
+    font-weight: bold;
+    color: green; /* Warna hijau */
+}
+
